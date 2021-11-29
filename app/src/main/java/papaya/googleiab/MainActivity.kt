@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.buyNow)
 
         val skuList = ArrayList<String>()
-        skuList.add("android.test.purchased")
+        skuList.add("test_prod_1")
 
         val purchasesUpdatedListener = PurchasesUpdatedListener{
             billingResult, purchses ->

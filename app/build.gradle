@@ -7,11 +7,11 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "papaya.googleiab"
+        applicationId "in.papayacoders.instasaver"
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 13
+        versionName "2.3.6.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
